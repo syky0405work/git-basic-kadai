@@ -1,0 +1,38 @@
+yudai@sanoyuudainoMacBook-Pro ~ % cd /Users/yudai/Desktop/lesson/git_tutorial
+yudai@sanoyuudainoMacBook-Pro git_tutorial % mkdir git_challenge
+yudai@sanoyuudainoMacBook-Pro git_tutorial % touch hello_world.txt
+yudai@sanoyuudainoMacBook-Pro git_tutorial % cd git_challenge
+yudai@sanoyuudainoMacBook-Pro git_challenge % git init
+Initialized empty Git repository in /Users/yudai/Desktop/lesson/git_tutorial/git_challenge/.git/
+yudai@sanoyuudainoMacBook-Pro git_challenge % git add hello_world.txt
+yudai@sanoyuudainoMacBook-Pro git_challenge % git commit -m "hello_world.txtを追加"
+[main (root-commit) 3e8a76b] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+yudai@sanoyuudainoMacBook-Pro git_challenge % git add hello_world.txt
+yudai@sanoyuudainoMacBook-Pro git_challenge % git commit -m "日本語訳を追記"
+[main 588f3c8] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+yudai@sanoyuudainoMacBook-Pro git_challenge % git log --oneline
+588f3c8 (HEAD -> main) 日本語訳を追記
+3e8a76b hello_world.txtを追加
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
